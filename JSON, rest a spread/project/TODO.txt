@@ -1,0 +1,99 @@
+Vytvorte nový .js súbor, v ktorom vypracujete dané úlohy, nezabudnite ho pripojiť do html dokumentu pomocou tágu script a jeho atribútu src.
+
+Opakovanie:
+    1. Vytvorte funkciu s názvom mul s dvoma parametrami: number1, number2.
+    Funkcia bude vracať súčin týchto dvoch čísel, v prípade, ak je zadaný len jeden 
+    argument, návratovavá hodnota sa bude rovnať tomuto argumentu a v prípade, ak nebude zadaný 
+    ani jeden argument návratová hodnota bude 1. Teda:
+    
+    volanie mul() vráti 1
+    volanie mul(x) vráti x
+    volanie mul(x,y) vráti x*y  
+
+    (Pri riešení použite defaultne hodnoty parametrov)  
+
+
+    2. Vytvorte objekt reprezentujúci Vás s nasledujúcimi vlastnosťami: 
+    name, surname, bithyear, address pomocou template stringu vypíšte do konzoly správu v tvare:
+    Volám sa X Y mám X rokov a bývam X.
+
+Práca s JS Objektami a poľom:
+    1. Majme nasledúci objekt 
+    (je treba si ho skopírovať do .js súboru v ktorm budete vypracovávať túto DÚ):
+    let obj = 
+    {
+        prop1: 0,
+        prop2: 0,
+        prop3: [
+            {
+                prop1: 0,
+                prop2: {
+                    prop1: "write me out",
+                    prop2: 0
+                }
+            },
+            {
+                prop1: [
+                    [
+                        {
+                            prop1: "write me out",
+                            prop2: 0
+                        },
+                        {
+                            prop1: 0,
+                            prop2: 0
+                        }
+                    ],
+                    [
+                        {
+                            prop1: 0,
+                            prop2: 0
+                        },
+                        {
+                            prop1: "write me out",
+                            prop2: 0
+                        }
+                    ]
+                ],
+                prop2: {
+                    prop1: "write me out",
+                    prop2: 0
+                }
+            }
+        ],
+        prop4: "write me out"
+    }
+
+    Do konzoly vypíšte všetky tie vlastnosti ktorých hodnota je "write me out"
+    pre prístup k jednotlivým vlastnostiam objektu využite bodkovú notáciu.
+
+
+    2.Vytvorte pole objektov (aspon 10 objektov), kde jeden objekt v poli bude obsahovať:
+    meno, priezvisko, datum narodenia (deň, mesiac a rok budu uložené
+    samostatne), adresu (ulica, cislo, mesto a psc budu ulozene samostatne).
+
+    {
+        name: "Jozef",
+        surname: "Nagy",
+        birthday: {
+            year: 1999,
+            month: 5,
+            day: 13
+        },
+        address: {
+            street: "Stredná",
+            number: 23,
+            city: "Víťaz",
+            postalCode: "082 38"
+        }
+    }
+
+    Následne do konzoly vypíšte iba ľudí, ktori:
+    a) bývaju v Košiciach
+    b) sa narodili v máji
+    c) sa volajú Marek
+    d) sa volajú Marek a bývajú v Košiciach
+    e) majú 35 rokov
+    g) majú meno zložené aspoň zo 6tich písmen a majú 20 rokov 
+    (logický operátor and v JS - &&, 
+    dĺžku slova zistíte napr. pomocou vlastnosti objektu String - length takto: "toto je string".length)

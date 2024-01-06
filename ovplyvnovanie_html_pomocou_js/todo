@@ -1,0 +1,14 @@
+Študijny materiál:
+    https://www.w3schools.com/js/js_events.asp
+    https://www.w3schools.com/js/js_htmldom_elements.asp
+    
+Domáca úloha:
+1.  Upravte existujúci kód tak, aby bol použivateľ lepšie oboznámený s tým či sa nacháda v 
+delete mode alebo nie. To znamená, že na začiatku bude mať delete mode tlačidlo sivé pozadie, 
+čo symbolizuje fakt, že momentálne nie sme v delete mode a po stlačení tlačidla sa pozadie 
+zmení na červené.  
+2.  Upravte existujúci kód tak, aby obsah elementu div s id "box-count" prezentoval 
+aktuálny počet box elementov. (div s id "box-count" je treba pridať do HTML).
+3.  Vymyslite a doplnte jedno vlasné tlačidlo, pomocou ktorého bude realizovaná vami 
+navrhnuta funkcionalita. Túto funkcionalitu, však v skratke opíšte v JS kóde v komentári. 
+

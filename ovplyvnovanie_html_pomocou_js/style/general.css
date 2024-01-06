@@ -1,0 +1,70 @@
+body {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.button-container {
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+}
+.button {
+    padding: 10px 25px;
+    text-align: center;
+    color: white;
+    transition: .5s;
+}
+.button:hover {
+    cursor: pointer;
+    opacity: .3;
+}
+#add-button {
+    background: rgb(0, 201, 0);
+}
+#box-count {
+    background: rgb(0, 54, 201);
+    padding: 10px 25px;
+    text-align: center;
+    color: white;
+   
+}
+#show-button {
+    background: dodgerblue;
+    display: none;
+}
+#darkMode {
+    
+    background:  Black;
+    color: white;
+
+}
+#hide-button {
+    background: rgb(209, 0, 0);
+}
+#clear-button {
+    background: rgb(200,200,0);
+}
+
+#delete-button {
+    background: grey;
+}
+
+#box-container {
+    display: flex;
+    gap: 10px;
+}
+
+
+#box-container .box {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    transition: .5s;
+}
+#box-container .box:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,.5);
+}

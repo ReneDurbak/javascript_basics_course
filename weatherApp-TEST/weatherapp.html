@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/general.css">
+    <script src="./js/script.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <header class="header-app">
+        <input type="text" id="city" placeholder="city">
+        <button id="show-weather" onclick="fetchAndDisplayWeatherData()">Show weather</button>
+    </header>
+    <div class="weather-card">
+        <div class="location">Praha, Czech Republic</div>
+        <div class="curent-weather">
+            <div class="curent-desc">
+                <img src = "./assets/weather/Clear.svg"/>
+                Clear
+            </div>
+            <div class="curent-temp">1°c</div>
+            <div class="curent-other">
+                <div class="wind">Wind: 26kmph</div>
+                <div class="pressure">Preasure: 1023 mb</div>
+            </div>
+        </div>
+        <div class="forecasts">
+            <div class="day">
+                <div class="name">SAT</div>
+                <img src = "./assets/weather/Clear.svg"/>
+                <div class="temperature">1°c</div>
+            </div>
+            <div class="day">
+                <div class="name">SUN</div>
+                <img src = "./assets/weather/Partly-cloudy.svg"/>
+                <div class="temperature">1°c</div>
+            </div>
+            <div class="day">
+                <div class="name">MON</div>
+                <img src = "./assets/weather/Cloudy.svg"/>
+                <div class="temperature">1°c</div>
+            </div>
+            <div class="day">
+                <div class="name">TUE</div>
+                <img src = "./assets/weather/Cloudy.svg"/>
+                <div class="temperature">1°c</div>
+            </div>
+            <div class="day">
+                <div class="name">WED</div>
+                <img src = "./assets/weather/Rainy.svg"/>
+                <div class="temperature">1°c</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

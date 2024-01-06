@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/general.css">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="button-container">
+    <div id="add-button" class="button" onclick="addBox()" >Add box</div>
+    <div id="show-button" class="button" onclick="showBoxes()">Show boxes</div>
+    <div id="hide-button" class="button" onclick="hideBoxes()">Hide boxes</div>
+    <div id="clear-button" class="button" onclick="clearBoxes()">clear boxes</div>
+    <div id="delete-button" class="button" onclick="setDeleteMode(event)">ENTER delete mode</div>
+</div>
+
+<div id="box-container">
+    <div class="box" onclick = "deleteBox(event)">1 </div>
+    <div class="box" onclick = "deleteBox(event)">2 </div>
+    
+</div>
+
+<div>
+    
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>

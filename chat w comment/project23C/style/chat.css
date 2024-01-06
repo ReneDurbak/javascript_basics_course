@@ -1,0 +1,51 @@
+body {
+    background: rgb(241,160,83);
+    background: linear-gradient(0deg, rgba(241,160,83,1) 0%, rgba(97,9,121,1) 100%); 
+    min-height: 100vh;
+}
+.header-app {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+#name, #msg, #send {
+    padding: 10px;
+    background: rgba(255,255,255,.3);
+    border: 1px solid white;
+    color: white;
+    outline: none;
+}
+#name {}
+#msg {
+    flex-grow: 1;
+}
+#send {
+    transition: .5s;
+    width: 100px;
+}
+#send:hover {
+    background: rgba(255,255,255,.7);
+    cursor: pointer;
+}
+#posts {
+    padding: 20px;
+    color: white;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.post {
+    background: rgba(255,255,255,.3);
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.post header {
+    display: flex;
+    justify-content: space-between;
+    opacity: .5;
+}
+.author {}
+.datetime {}
+.body {}

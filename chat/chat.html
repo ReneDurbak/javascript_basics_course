@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/chat.css">
+    <script src="js/chatscript.js" defer="defer"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-app">
+        <input type="text" id="name" placeholder="author">
+        <input type="text" id="msg" placeholder="message">
+        <button id="send" onclick="sendPost()">Send</button>
+    </header>
+
+    <main id="posts">
+        <article class="post">
+            <header>
+                <div class="author">Martin</div>
+                <div class="datetime">11.11.2022 11:19:05</div>
+            </header>
+            <div class="body">Hello world!</div>
+        </article>
+    </main>
+</body>
+</html>
